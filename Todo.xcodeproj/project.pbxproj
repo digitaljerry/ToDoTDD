@@ -22,6 +22,7 @@
 		5F348D731E7C7FCF00C92124 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F348D721E7C7FCF00C92124 /* ItemListViewController.swift */; };
 		5F348D771E7C838700C92124 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F348D761E7C838700C92124 /* ItemListDataProvider.swift */; };
 		5FF2601F1E7FD86400D93178 /* ItemListDataProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2601E1E7FD86400D93178 /* ItemListDataProviderTest.swift */; };
+		5FF260231E7FE6E300D93178 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF260221E7FE6E300D93178 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5F348D721E7C7FCF00C92124 /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		5F348D761E7C838700C92124 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 		5FF2601E1E7FD86400D93178 /* ItemListDataProviderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTest.swift; sourceTree = "<group>"; };
+		5FF260221E7FE6E300D93178 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				5F348D721E7C7FCF00C92124 /* ItemListViewController.swift */,
 				5F348D761E7C838700C92124 /* ItemListDataProvider.swift */,
+				5FF260221E7FE6E300D93178 /* ItemCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF260231E7FE6E300D93178 /* ItemCell.swift in Sources */,
 				5F348D431E77ED4100C92124 /* ViewController.swift in Sources */,
 				5F348D771E7C838700C92124 /* ItemListDataProvider.swift in Sources */,
 				5F348D6E1E7868A600C92124 /* ItemManager.swift in Sources */,
