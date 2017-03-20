@@ -21,6 +21,7 @@
 		5F348D711E7C7F4E00C92124 /* ItemListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F348D701E7C7F4E00C92124 /* ItemListViewControllerTest.swift */; };
 		5F348D731E7C7FCF00C92124 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F348D721E7C7FCF00C92124 /* ItemListViewController.swift */; };
 		5F348D771E7C838700C92124 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F348D761E7C838700C92124 /* ItemListDataProvider.swift */; };
+		5FF2601F1E7FD86400D93178 /* ItemListDataProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2601E1E7FD86400D93178 /* ItemListDataProviderTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5F348D701E7C7F4E00C92124 /* ItemListViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTest.swift; sourceTree = "<group>"; };
 		5F348D721E7C7FCF00C92124 /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		5F348D761E7C838700C92124 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
+		5FF2601E1E7FD86400D93178 /* ItemListDataProviderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				5F348D701E7C7F4E00C92124 /* ItemListViewControllerTest.swift */,
+				5FF2601E1E7FD86400D93178 /* ItemListDataProviderTest.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F348D6C1E78684700C92124 /* ItemManagerTests.swift in Sources */,
+				5FF2601F1E7FD86400D93178 /* ItemListDataProviderTest.swift in Sources */,
 				5F348D6A1E785D9900C92124 /* LocationTests.swift in Sources */,
 				5F348D711E7C7F4E00C92124 /* ItemListViewControllerTest.swift in Sources */,
 				5F348D631E784D9300C92124 /* ToDoItemTests.swift in Sources */,
@@ -470,6 +474,7 @@
 				5F348D5C1E77ED4100C92124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F348D5D1E77ED4100C92124 /* Build configuration list for PBXNativeTarget "TodoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				5F348D5F1E77ED4100C92124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
