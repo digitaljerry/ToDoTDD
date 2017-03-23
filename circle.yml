@@ -1,0 +1,3 @@
+dependencies:
+  pre:
+    - xcrun instruments -w "iPhone 6 (10.2) [" || true
