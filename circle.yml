@@ -1,8 +1,23 @@
+machine:
+  xcode:
+    version: 8.2
+
 dependencies:
   pre:
-    - xcrun instruments -w "iPhone 6 (10.1) [" || true
+    - xcrun instruments -w "iPhone 7 (10.1) [" || true
 
 test:
   override:
-    - set -o pipefail && xcodebuild -project 'Todo.xcodeproj' -scheme 'Todo' clean build test -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1' CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= | tee $CIRCLE_ARTIFACTS/xcode_raw.log | xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
-    
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
+        -sdk iphonesimulator
+        -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 7'
+        -project 'Todo.xcodeproj'
+        -scheme 'Todo'
+        clean build test |
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+      
